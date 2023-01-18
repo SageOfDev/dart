@@ -5,29 +5,18 @@ class Player {
   int age;
 
   // ctor
-  Player({
-    required this.name, 
-    required this.xp, 
-    required this.team, 
-    required this.age
-  });
+  Player(
+      {required this.name,
+      required this.xp,
+      required this.team,
+      required this.age});
 
   void sayHello() {
-    print('Hy myname is $name'); 
+    print('Hy myname is $name');
   }
 }
 
 void main() {
-  var player = Player(
-    name: 'J', 
-    xp: 1500, 
-    team: 'ring', 
-    age: 12
-    );
-  var player2 = Player(
-    name: 'I', 
-    xp: 2000, 
-    team: 'ping', 
-    age: 15
-  );
+  var player = Player(name: 'J', xp: 1500, team: 'ring', age: 12);
+  var player2 = Player(name: 'I', xp: 2000, team: 'ping', age: 15);
 }

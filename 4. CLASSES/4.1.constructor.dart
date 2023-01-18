@@ -9,7 +9,7 @@ class Player {
   }
 
   void sayHello() {
-    print('Hy myname is $name'); 
+    print('Hy myname is $name');
   }
 }
 
@@ -21,7 +21,7 @@ class Player2 {
   Player2(this.name, this.xp);
 
   void sayHello() {
-    print('Hy myname is $name'); 
+    print('Hy myname is $name');
   }
 }
 
@@ -30,5 +30,4 @@ void main() {
   player.sayHello();
   var player2 = Player2('I', 2000);
   player2.sayHello();
- 
 }
